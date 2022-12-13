@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Clock, { ClockToggle } from './components/Clock';
+import { Clock, ClockToggle } from './components/Clock';
 import Folder from './components/Folder';
 import Weather from './components/Weather';
 import AutoComplete from './components/Auto';
@@ -47,9 +47,9 @@ function App(){
 //       showClock: true
 //     };
 //   }
-  
+
 //   toggleClock = () => this.setState({ showClock: !this.state.showClock });
-  
+
 //   render () {
 //     return (
 //       <div className="widgets">
